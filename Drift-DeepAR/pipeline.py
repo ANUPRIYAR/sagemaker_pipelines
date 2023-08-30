@@ -50,8 +50,8 @@ from sagemaker.inputs import BatchDataCaptureConfig
 
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
-config_bucket = 'sagemaker-eu-west-1-610914939903'
-config_key = 'oos_prediction/OutOfStock/Configurations/configurations.ini'
+config_bucket = 'pipeline-aiml-stg'
+config_key = 'OutOfStock/Configurations/configurations.ini'
 config_uri = f"s3://{config_bucket}/{config_key}"
 
 # Initialize the Parser object
